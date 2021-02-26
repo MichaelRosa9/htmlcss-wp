@@ -9,6 +9,7 @@
   width: 80%;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
+  color: #A1A1A1;
 }
 
 /* HEADER */
@@ -17,18 +18,44 @@
 }
 
 
-nav {
-  height: 100px;
-  background-color:  #E16EE2;
+/* MENU */
+nav{
+  margin: 30px 0;
 }
+nav .menu {
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  display: inline;
+  color:inherit
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  color: coral;
+}
+
 
 /* IMMAGINE HEADER */
 .banner {
   margin-top: 20px;
-  height: 400px;
-  background-color: #DDD06E;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  color:#fff;
+}
+.main-banner {
+  height: 600px;
 }
 
+.text-over-banner {}
 /* MAIN CONTENT */
 main {
 
