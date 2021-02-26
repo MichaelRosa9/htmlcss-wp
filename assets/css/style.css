@@ -9,9 +9,11 @@
   width: 80%;
   margin: auto;
   font-family: 'Montserrat', sans-serif;
-  color: #A1A1A1;
 }
 
+p {
+  color: #A1A1A1;
+}
 /* HEADER */
 .logo img {
   width: 10%;
@@ -29,7 +31,7 @@ nav .menu {
 .menu a {
   text-decoration: none;
   display: inline;
-  color:inherit
+  color: #A1A1A1;
 }
 
 .menu li {
@@ -86,13 +88,15 @@ main {
   margin: 20px 0;
 
 }
-.black-title {
-  color: black;
+.small-title {
   font-weight: 100;
 }
 .leader-title {
   font-weight: 900;
   font-size: 30px;
+}
+.text-over-banner p {
+  color: inherit
 }
 
 
@@ -139,11 +143,10 @@ main {
 
 footer {
   margin: 20px 0 40px;
-}
-footer .black-title {
   text-align: center;
 }
-footer .black-title::after {
+
+footer .small-title::after {
   content: '\2665';
   color: red;
 }
